@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Secret Link</title>
+</head>
+<body>
+    <h1>Your one-time secret link is ready</h1>
+    <p>Send this link to someone, or open it yourself when you're ready:</p>
+    <p>
+        <a href="{{ url_for('view_secret', secret_id=secret_id, _external=True) }}">
+            {{ url_for('view_secret', secret_id=secret_id, _external=True) }}
+        </a>
+    </p>
+    <p>Note: Once opened, the secret will be deleted permanently. </p>
+</body>
+</html>

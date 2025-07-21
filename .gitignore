@@ -1,0 +1,13 @@
+# Ignore virtual environment
+projvenv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore editor config (optional)
+.vscode/
+
+# Ignore sensitive or temp files
+.env
+*.log
