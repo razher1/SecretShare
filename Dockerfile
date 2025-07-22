@@ -13,7 +13,7 @@ COPY . .
 
 # Set environment variables (optional but nice)
 ENV FLASK_APP=app
-ENV FLASK_ENV=production
+ENV FLASK_ENV=development
 
 # Expose the port Flask will run on
 EXPOSE 5000

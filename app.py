@@ -3,8 +3,7 @@ import uuid
 
 app = Flask(__name__)
 
-# In-memory storage for secrets (cleared when app restarts)
-secrets = {}
+secrets = {} # In-memory storage for secrets (cleared when app restarts)
 
 @app.route("/")
 def index():
